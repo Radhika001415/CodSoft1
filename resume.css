@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(19, 19, 103);
+    margin: 30px;
+}
+body #full{
+    background-image: url(img/bgresume.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    color: rgb(250, 248, 248);
+    padding-left: 25px;
+    height: 550px;
+}
+/* Create a nav bar */
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    float: row;  
+}
+nav h1{
+    color:white; 
+    padding: 10px;
+    font-size:25px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    margin-left: 550px;
+}
+li{
+    list-style: none;
+    float: left;  
+    padding:10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+nav a:hover{
+    color: rgb(238, 187, 233);
+}
+nav h1:hover{
+    cursor: pointer;
+}
+
+/* image logo and about myself editing */
+#full #myself{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+#full #myself #text{
+    text-align: center;
+    margin:45px ;
+    font-size:20px;
+}
+#myself #text h1:hover{
+         cursor: pointer;
+         font-size: 100%;
+         color:cyan;
+}
+#myself #text h3{
+    font-size:30px;
+    background-image: url("img/textbgimg.avif");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+#full #myself button{
+    font-size:larger;
+    border-radius: 10px;
+}
+#full #myself button:hover{
+    background-color: blue;
+    font-size:100%;
+}
+
+#full #myself #image img{
+    margin:50px ;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(57, 78, 97);
+    background: linear-gradient(yellow,rgb(247, 125, 3),blue,purple,rgb(236, 8, 107));
+    padding:10px; 
+}
+#full #myself #image img:hover{
+    cursor:pointer;
+    border-radius: 90px;
+}
